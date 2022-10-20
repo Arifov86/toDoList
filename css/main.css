@@ -1,0 +1,210 @@
+.wrapper {
+  background-color: #e3e3e3;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #041955;
+}
+
+select {
+  background-color: #c9d4ee;
+}
+
+.title__main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card,
+.add__card {
+  min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3450a1;
+  width: 300px;
+  margin: 7px;
+  border-radius: 5px;
+  color: #0d0e18;
+  color: white;
+  -webkit-box-shadow: 5px 7px 15px -7px #000000;
+          box-shadow: 5px 7px 15px -7px #000000;
+}
+
+.add__card {
+  background-color: #3450a1;
+  color: black;
+}
+
+.title__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 8px;
+}
+
+.title__wrap > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.title {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.title__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description {
+  padding: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  outline: 1px solid #363636;
+  margin: 8px;
+  background-color: #041955;
+  color: white;
+  border-radius: 5px;
+  width: 92%;
+}
+
+.addlist {
+  width: 290px;
+  height: 80%;
+  outline: 1px solid #041955;
+  margin-top: 5px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: #041955;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 7px 15px -7px #000000;
+          box-shadow: 5px 7px 15px -7px #000000;
+  background-color: #f8aeff;
+}
+
+.addlist:hover {
+  background-color: #3450a1;
+}
+
+.addlist:active {
+  background-color: #041955;
+  color: #f8aeff;
+  outline: 1px solid #041955;
+}
+
+.input__title,
+.edit__title {
+  width: 70px;
+  margin: 5px;
+}
+
+select {
+  width: 70px;
+  margin: 5px;
+}
+
+button {
+  width: 140px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+  color: black;
+  background-color: #f8aeff;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.save {
+  width: 280px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+  background-color: #f8aeff;
+}
+
+.textarea,
+.textarea__new {
+  width: 96%;
+  height: 100%;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .textarea,
+.card .textarea__new {
+  display: none;
+}
+
+.card .edit__title {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
